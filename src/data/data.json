@@ -58,5 +58,27 @@
         "rating": 4
       }
     ]
-  }
+  },
+  "instructors": [
+    {
+      "name": "Test",
+      "description": "LLALALALLALALALALALALALLALALALALALALALLALALALAALALALLALALALA",
+      "img": "/img/instructor.png"
+    },
+    {
+      "name": "Test",
+      "description": "LLALALALLALALALALALALALLALALALALALALALLALALALAALALALLALALALA",
+      "img": "/img/instructor.png"
+    },
+    {
+      "name": "Test",
+      "description": "LLALALALLALALALALALALALLALALALALALALALLALALALAALALALLALALALA",
+      "img": "/img/instructor.png"
+    },
+    {
+      "name": "Test",
+      "description": "LLALALALLALALALALALALALLALALALALALALALLALALALAALALALLALALALA",
+      "img": "/img/instructor.png"
+    }
+  ]
 }

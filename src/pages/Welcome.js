@@ -15,7 +15,6 @@ import {
   DialogContentText,
   DialogActions,
 } from "@material-ui/core";
-import logo from "../img/logo.png";
 import Home from "./Home";
 
 const useStyles = makeStyles((theme) => ({
@@ -104,7 +103,11 @@ const Welcome = () => {
     return (
       <Container className={classes.container}>
         <div className={classes.logoContainer}>
-          <img src={logo} alt="ACME Fitness" className={classes.logo} />
+          <img
+            src={`${process.env.PUBLIC_URL}/img/logo.png`}
+            alt="ACME Fitness"
+            className={classes.logo}
+          />
         </div>
         <Typography variant="h4" className={classes.heading}>
           Welcome

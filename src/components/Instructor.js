@@ -7,7 +7,8 @@ import {
   Divider,
 } from "@material-ui/core";
 
-const Instructor = () => {
+const Instructor = ({ data }) => {
+  console.log(data);
   return (
     <>
       <ListItem>

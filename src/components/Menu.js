@@ -13,7 +13,6 @@ import SearchIcon from "@material-ui/icons/Search";
 import EqualizerIcon from "@material-ui/icons/Equalizer";
 import FitnessCenterIcon from "@material-ui/icons/FitnessCenter";
 import SettingsIcon from "@material-ui/icons/Settings";
-import logo from "../img/logo.png";
 
 // Material UI Styles
 const useStyles = makeStyles((theme) => ({
@@ -40,7 +39,10 @@ const Menu = ({ toggleDrawer, menuOpen }) => {
     >
       <div className={classes.logoContainer}>
         <a target="_blank" rel="noreferrer" href="https://www.acmefitness.com/">
-          <img src={logo} alt="ACME Fitness" />
+          <img
+            src={`${process.env.PUBLIC_URL}/img/logo.png`}
+            alt="ACME Fitness"
+          />
         </a>
       </div>
       <List>

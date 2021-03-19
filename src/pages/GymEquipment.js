@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Tab, Tabs, Container } from "@material-ui/core";
 import Cardiovascular from "./Cardiovascular";
 import Strength from "./Strength";
-import products from "../data/products.json";
+import data from "../data/data.json";
 
 const useStyles = makeStyles((theme) => ({
   tabsContainer: {
@@ -45,9 +45,9 @@ const GymEquipment = () => {
         </Tabs>
       </div>
       {currTab === 0 ? (
-        <Cardiovascular products={products.products.cardio} />
+        <Cardiovascular products={data.products.cardio} />
       ) : (
-        <Strength products={products.products.strength} />
+        <Strength products={data.products.strength} />
       )}
     </Container>
   );
