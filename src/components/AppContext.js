@@ -3,7 +3,7 @@ import React, { createContext, useState, useEffect } from "react";
 export const AppContext = createContext();
 
 export const AppProvider = (props) => {
-  const [isAuthenticated, setIsAuthenticated] = useState(true); // HARDCODED FOR TESTING PURPOSES
+  const [isAuthenticated, setIsAuthenticated] = useState(false); // Change to true for testing
 
   const [userData, setUserData] = useState({
     age: null,
@@ -18,8 +18,9 @@ export const AppProvider = (props) => {
     {
       id: "BMI",
       color: "hsl(327, 70%, 50%)",
-      data: [{ x: "03/19/2021", y: 22 }], // HARDCODED FOR TESTING PURPOSES
+      data: [],
     },
+    // data: [{ x: "03/19/2021", y: 22 }] Insert this line for testing purposes
   ]);
   const [consumedCalories, setConsumedCalories] = useState(0);
   const [listData, setListData] = useState([]);
