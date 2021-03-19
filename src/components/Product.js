@@ -14,10 +14,10 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "15px",
     display: "flex",
     border: "1px solid #f6f6f6",
+    height: "200px",
   },
   img: {
     width: "40%",
-    maxHeight: "100%",
   },
   content: {
     width: "60%",

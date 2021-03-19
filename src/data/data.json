@@ -61,24 +61,24 @@
   },
   "instructors": [
     {
-      "name": "Test",
-      "description": "LLALALALLALALALALALALALLALALALALALALALLALALALAALALALLALALALA",
-      "img": "/img/instructor.png"
+      "name": "Erin Burton",
+      "description": "Specialized in cardio and aquagym",
+      "img": "/img/instructor-1.png"
     },
     {
-      "name": "Test",
-      "description": "LLALALALLALALALALALALALLALALALALALALALLALALALAALALALLALALALA",
-      "img": "/img/instructor.png"
+      "name": "Maurice Arnold",
+      "description": "Specialized bodyweight exercise",
+      "img": "/img/instructor-2.jpeg"
     },
     {
-      "name": "Test",
-      "description": "LLALALALLALALALALALALALLALALALALALALALLALALALAALALALLALALALA",
-      "img": "/img/instructor.png"
+      "name": "Grant Dennis",
+      "description": "Specialized in physiotherapy",
+      "img": "/img/instructor-3.jpeg"
     },
     {
-      "name": "Test",
-      "description": "LLALALALLALALALALALALALLALALALALALALALLALALALAALALALLALALALA",
-      "img": "/img/instructor.png"
+      "name": "Austin Fernandez",
+      "description": "Specialized in weight-lifting",
+      "img": "/img/instructor-4.jpeg"
     }
   ]
 }

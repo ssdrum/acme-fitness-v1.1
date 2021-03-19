@@ -8,17 +8,17 @@ import {
 } from "@material-ui/core";
 
 const Instructor = ({ data }) => {
-  console.log(data);
+  const name = data.name;
+  const description = data.description;
+  const img = data.img;
+
   return (
     <>
       <ListItem>
         <ListItemAvatar>
-          <Avatar alt="Instructor" src={"/img/instructor.png"} />
+          <Avatar alt="Instructor" src={`${process.env.PUBLIC_URL}${img}`} />
         </ListItemAvatar>
-        <ListItemText
-          primary="Instructor Name"
-          secondary="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        />
+        <ListItemText primary={name} secondary={description} />
       </ListItem>
       <Divider />
     </>
