@@ -22,8 +22,8 @@ const OurInstructors = () => {
     setCurrPage("Our Instructors");
   });
 
-  const instructorsArray = instructors.map((instructor) => (
-    <Instructor data={instructor} />
+  const instructorsArray = instructors.map((instructor, i) => (
+    <Instructor data={instructor} key={i} />
   ));
 
   return (

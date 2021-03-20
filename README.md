@@ -1,3 +1,8 @@
+Prerequisites: Having NPM installed on your machine
+
+1. Download NPM here: https://www.npmjs.com/get-npm
+2. In the directory, run "npm install" to install dependencies
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
