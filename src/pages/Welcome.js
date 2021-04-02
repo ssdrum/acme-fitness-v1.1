@@ -17,39 +17,6 @@ import {
 } from "@material-ui/core";
 import Home from "./Home";
 
-const useStyles = makeStyles((theme) => ({
-  logoContainer: {
-    width: "100%",
-    display: "flex",
-    justifyContent: "center",
-    paddingTop: "20px",
-  },
-  logo: {
-    width: "200px",
-  },
-  heading: {
-    marginTop: "30px",
-    textAlign: "center",
-    marginBottom: "30px",
-  },
-  form: {
-    display: "flex",
-    flexDirection: "column",
-    maxWidth: "80%",
-    margin: "auto",
-    backgroundColor: "#fff",
-    borderRadius: "10px",
-    padding: "20px",
-  },
-  formItem: {
-    marginBottom: "10px",
-  },
-  submitBtn: {
-    marginTop: "50px",
-    color: "#fff",
-  },
-}));
-
 const Welcome = () => {
   const {
     setUserData,
@@ -226,3 +193,36 @@ const Welcome = () => {
 };
 
 export default Welcome;
+
+const useStyles = makeStyles((theme) => ({
+  logoContainer: {
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    paddingTop: "20px",
+  },
+  logo: {
+    width: "200px",
+  },
+  heading: {
+    marginTop: "30px",
+    textAlign: "center",
+    marginBottom: "30px",
+  },
+  form: {
+    display: "flex",
+    flexDirection: "column",
+    maxWidth: "80%",
+    margin: "auto",
+    backgroundColor: "#fff",
+    borderRadius: "10px",
+    padding: "20px",
+  },
+  formItem: {
+    marginBottom: "10px",
+  },
+  submitBtn: {
+    marginTop: "50px",
+    color: "#fff",
+  },
+}));

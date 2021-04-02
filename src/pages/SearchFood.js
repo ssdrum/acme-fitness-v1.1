@@ -49,7 +49,7 @@ const SearchFood = () => {
 
     try {
       setIsFetching(true);
-      const formattedQuery = input.replaceAll(" ", "%20");
+      const formattedQuery = input.replace(/ /g, "%20");
       const response = await fetch(
         `https://api.nal.usda.gov/fdc/v1/foods/search?api_key=kpgGjnKQtqTdZY5sRaJjPbAbfTCaHymb8l327r9d&query=${formattedQuery}`
       );
